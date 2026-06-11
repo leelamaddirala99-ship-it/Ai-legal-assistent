@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Legal Assistant</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+<h1>⚖️ AI Legal Document Explainer</h1>
+
+<textarea
+id="document"
+placeholder="Paste legal, tax or compliance document here..."
+></textarea>
+
+<div class="buttons">
+
+<button onclick="summarizeDoc()">
+📄 Summarize
+</button>
+
+<button onclick="generateChecklist()">
+✅ Checklist
+</button>
+
+<button onclick="findRisks()">
+⚠️ Risk Analysis
+</button>
+
+</div>
+
+<div id="output">
+AI response will appear here...
+</div>
+
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

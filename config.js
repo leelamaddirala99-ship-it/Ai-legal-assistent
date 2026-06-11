@@ -1,0 +1,1 @@
+const API_KEY = "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";
